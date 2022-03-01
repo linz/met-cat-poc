@@ -1,0 +1,218 @@
+{
+    "type": "Collection",
+    "id": "01FVX4X6462F4E7W8V21JR6X07",
+    "stac_version": "1.0.0",
+    "description": "Historical Imagery",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./collection.json",
+            "type": "application/json",
+            "title": "5997"
+        },
+        {
+            "rel": "item",
+            "href": "./150516.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150522.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150523.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150524.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150525.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150526.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150532.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150531.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150530.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150529.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150528.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./150527.json",
+            "type": "application/json"
+        }
+    ],
+    "stac_extensions": [
+        "https://stac.linz.govt.nz/v0.0.14/quality/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/aerial-photo/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/camera/schema.json",
+        "https://stac-extensions.github.io/version/v1.0.0/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/linz/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/film/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/historical-imagery/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/file/v2.0.0/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/scanning/schema.json",
+        "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    ],
+    "linz:security_classification": "unclassified",
+    "processing:software": {
+        "Topo Processor": "0.1.0"
+    },
+    "version": "1",
+    "linz:lifecycle": "completed",
+    "linz:history": "LINZ and its predecessors, Lands & Survey and Department of Survey and Land Information (DOSLI), commissioned aerial photography for the Crown between 1936 and 2008.\nOne of the predominant uses of the aerial photography at the time was the photogrammetric mapping of New Zealand, initially at 1inch to 1mile followed by the NZMS 260 and Topo50 map series at 1:50,000.\nThese photographs were scanned through the Crown Aerial Film Archive scanning project.",
+    "linz:providers": [
+        {
+            "name": "Toitū Te Whenua LINZ",
+            "description": "The New Zealand Government's lead agency for location and property information, Crown land and managing overseas investment.",
+            "roles": [
+                "custodian"
+            ],
+            "url": "https://www.linz.govt.nz/about-linz/what-were-doing/projects/crown-aerial-film-archive-historical-imagery-scanning-project"
+        },
+        {
+            "name": "Manager Partnership Programmes",
+            "roles": [
+                "manager"
+            ]
+        }
+    ],
+    "linz:geospatial_type": "black and white image",
+    "linz:asset_summaries": {
+        "created": {
+            "minimum": "2022-02-14T22:24:10Z",
+            "maximum": "2022-02-14T22:40:46Z"
+        },
+        "updated": {
+            "minimum": "2022-02-14T22:24:10Z",
+            "maximum": "2022-02-14T22:40:46Z"
+        }
+    },
+    "title": "5997",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    176.66024,
+                    -38.11607,
+                    176.7006,
+                    -38.09914
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "1982-01-20T11:00:00Z",
+                    "1982-01-20T11:00:00Z"
+                ]
+            ]
+        }
+    },
+    "license": "CC-BY-4.0",
+    "providers": [
+        {
+            "name": "Toitū Te Whenua LINZ",
+            "description": "The New Zealand Government's lead agency for location and property information, Crown land and managing overseas investment.",
+            "roles": [
+                "host",
+                "licensor",
+                "processor"
+            ],
+            "url": "https://www.linz.govt.nz/about-linz/what-were-doing/projects/crown-aerial-film-archive-historical-imagery-scanning-project"
+        },
+        {
+            "name": "NZ Aerial Mapping",
+            "description": "Aerial survey and geospatial services firm. Went into liquidation in 2014.",
+            "roles": [
+                "producer"
+            ]
+        }
+    ],
+    "summaries": {
+        "mission": [
+            "5997"
+        ],
+        "platform": [
+            "Fixed-wing Aircraft"
+        ],
+        "instruments": [
+            "ZEISS RMK"
+        ],
+        "film:id": [
+            "2543"
+        ],
+        "film:physical_size": [
+            "23cm x 23cm"
+        ],
+        "aerial-photo:run": [
+            "A",
+            "B"
+        ],
+        "scan:is_original": [
+            true
+        ],
+        "proj:epsg": [
+            null
+        ],
+        "camera:sequence_number": {
+            "minimum": 930,
+            "maximum": 941
+        },
+        "camera:nominal_focal_length": {
+            "minimum": 152,
+            "maximum": 152
+        },
+        "film:negative_sequence": {
+            "minimum": 1,
+            "maximum": 12
+        },
+        "aerial-photo:sequence_number": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "aerial-photo:altitude": {
+            "minimum": 2650,
+            "maximum": 2650
+        },
+        "aerial-photo:scale": {
+            "minimum": 4500,
+            "maximum": 4500
+        },
+        "scan:scanned": {
+            "minimum": "2014-09-30T11:00:00Z",
+            "maximum": "2014-09-30T11:00:00Z"
+        }
+    }
+}

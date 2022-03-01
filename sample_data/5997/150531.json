@@ -1,0 +1,115 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "150531",
+    "properties": {
+        "processing:software": {
+            "Topo Processor": "0.1.0"
+        },
+        "version": "1",
+        "mission": "5997",
+        "platform": "Fixed-wing Aircraft",
+        "instruments": [
+            "ZEISS RMK"
+        ],
+        "proj:centroid": {
+            "lat": -38.1105,
+            "lon": 176.6851
+        },
+        "camera:sequence_number": 937,
+        "camera:nominal_focal_length": 152,
+        "film:id": "2543",
+        "film:negative_sequence": 8,
+        "film:physical_size": "23cm x 23cm",
+        "aerial-photo:run": "B",
+        "aerial-photo:sequence_number": 5,
+        "aerial-photo:altitude": 2650,
+        "aerial-photo:scale": 4500,
+        "scan:is_original": true,
+        "scan:scanned": "2014-09-30T11:00:00Z",
+        "proj:epsg": null,
+        "datetime": "1982-01-20T11:00:00Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    176.679,
+                    -38.10598
+                ],
+                [
+                    176.69078,
+                    -38.1056
+                ],
+                [
+                    176.69127,
+                    -38.11492
+                ],
+                [
+                    176.67949,
+                    -38.11531
+                ],
+                [
+                    176.679,
+                    -38.10598
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "./collection.json",
+            "type": "application/json",
+            "title": "5997"
+        },
+        {
+            "rel": "parent",
+            "href": "./collection.json",
+            "type": "application/json",
+            "title": "5997"
+        },
+        {
+            "rel": "collection",
+            "href": "./collection.json",
+            "type": "application/json",
+            "title": "5997"
+        }
+    ],
+    "assets": {
+        "visual": {
+            "href": "./150531.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "eo:bands": [
+                {
+                    "name": "gray",
+                    "common_name": "pan"
+                }
+            ],
+            "created": "2022-02-14T22:34:52Z",
+            "updated": "2022-02-14T22:34:52Z",
+            "file:checksum": "1220ffcdb3c2321b946ff868df08ddebe362cf267c7073eb0147a28ba01a9bd5ce73"
+        }
+    },
+    "bbox": [
+        176.679,
+        -38.11531,
+        176.69127,
+        -38.1056
+    ],
+    "stac_extensions": [
+        "https://stac.linz.govt.nz/v0.0.14/aerial-photo/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/camera/schema.json",
+        "https://stac-extensions.github.io/version/v1.0.0/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/linz/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/film/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/historical-imagery/schema.json",
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/file/v2.0.0/schema.json",
+        "https://stac.linz.govt.nz/v0.0.14/scanning/schema.json",
+        "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+    ],
+    "collection": "01FVX4X6462F4E7W8V21JR6X07"
+}
