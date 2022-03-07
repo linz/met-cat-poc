@@ -1,6 +1,7 @@
 # metcat
 
-A new Flutter project.
+A Proof of Concept to test our thinking on a separated, lightweight metadata editor and catalogue service using Flutter and Kafka as the underpinning technology.
+See product information in (Confluence)[https://confluence.linz.govt.nz/display/LGDL/Metadata+Catalogue] for more information.
 
 ## Getting Started
 
