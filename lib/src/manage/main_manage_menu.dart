@@ -156,19 +156,20 @@ class MainManageMenu extends StatelessWidget {
   }
 
   void selectedItem(BuildContext context, int index) {
-    Navigator.of(context).pop();
+    return;
+    // Navigator.of(context).pop();
 
-    switch (index) {
-      case 0:
-        Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => DataChannelsPage(context),
-        ));
-        break;
-      case 1:
-        Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => const FavouritesPage(),
-        ));
-        break;
-    }
+    // switch (index) {
+    //   case 0:
+    //     Navigator.of(context).push(MaterialPageRoute(
+    //       builder: (context) => DataChannelsPage(context),
+    //     ));
+    //     break;
+    //   case 1:
+    //     Navigator.of(context).push(MaterialPageRoute(
+    //       builder: (context) => const FavouritesPage(),
+    //     ));
+    //     break;
+    // }
   }
 }
